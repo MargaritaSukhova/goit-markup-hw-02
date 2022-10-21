@@ -112,7 +112,9 @@ body {
     color: var(--main-white-color);
     background-color: var(--accent-color);
 }
-.hero-btn:active {
+.hero-btn:active,
+.hero-btn:hover,
+.hero-btn:focus {
     background-color: var(--btn-active-color)
 }
 
