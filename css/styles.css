@@ -1,6 +1,5 @@
 :root {
-    --main-background-color: #F5F5F5;
-    --header-background-color: #fff;
+    --main-background-color: #fff;
     --dark-background-color: #2F303A;
     --secondary-background-color: #F5F4FA;
     --main-text-color: #757575;
@@ -44,9 +43,10 @@ body {
 .btn {
     font-family: 'Roboto';
     cursor: pointer;
+    border: 0px;
 }
 .header {
-    background-color: var(--header-background-color);
+    background-color: var(--main-background-color);
 }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -145,7 +145,7 @@ body {
 }
 
 .team-card {
-    background-color: var(--header-background-color);
+    background-color: var(--main-background-color);
 }
 
 .team-name {
@@ -201,6 +201,9 @@ body {
     letter-spacing: 0.03em;
     color: var(--main-title-color);
 }
+.filter-btn.current {
+    background-color: var(--accent-color);
+}
 
 .filter-btn:hover,
 .filter-btn:focus {
@@ -208,7 +211,7 @@ body {
 }
 
 .portfolio-card {
-    background-color: var(--header-background-color);
+    background-color: var(--main-background-color);
 }
 
 .project-title {
