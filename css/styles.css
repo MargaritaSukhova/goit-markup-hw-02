@@ -10,7 +10,7 @@
     --main-white-color: #fff;
     --sencondary-white-color: rgba(255, 255, 255, 0.6);
     --btn-active-color: #188CE8;
-    --portfolio-card-background-color: #EEEEEE;
+    --portfolio-card-border-color: #EEEEEE;
 }
 
 body {
